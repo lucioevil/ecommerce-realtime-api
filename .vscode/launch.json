@@ -1,0 +1,15 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions pf existing atributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "versio": "0.2.0",
+  "configurations": [{
+    "type": "node",
+    "request": "launch",
+    "name": "Debug",
+    "runtimeExecutable": "npm",
+    "runtimeArgs": ["run", "dev"],
+    "port": 9229,
+    "internalConsoleOptions": "neverOpen"
+  }]
+}
